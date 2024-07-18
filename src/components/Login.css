@@ -1,0 +1,136 @@
+/* .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } */
+
+.login-container{
+    /* border: 1px solid black; */
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+    /* justify-content: flex-start; */
+    height: 100vh;
+}
+
+.login-box{
+    max-width: 500px;
+    width: 100%; 
+    margin-left: 4rem;
+    margin-right: 4rem;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.loginSubmit{
+  border: none;
+  border-radius: 20px;
+  align-self: auto;
+}
+
+.head-container p, h2{
+    margin: 0;
+    color: #032B69;
+}
+
+form{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 90%;
+    align-self: center;
+
+}
+
+form .email, .password{
+    padding-right: 16px;
+    /* padding-left: 16px; */
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    width: 90%;
+    align-self: center;
+    background-color: #2260FF;
+    color: white;
+}
+
+.link{
+    align-self: center;
+
+}
+
+.link a{
+    color: #032B69;
+    text-decoration: none;
+    font-weight: SemiBold;
+}
+
+.password{
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.fontAwesome{
+    position: absolute;
+    right:50px;
+    top: 8px;
+}
