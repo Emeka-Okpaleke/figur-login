@@ -54,15 +54,16 @@
     display: flex;
     /* align-items: center; */
     align-items: center;
-    /* justify-content: flex-start; */
+    justify-content: center;
     height: 100vh;
 }
 
 .login-box{
     max-width: 500px;
     width: 100%; 
-    margin-left: 4rem;
-    margin-right: 4rem;
+    display: flex;
+    /* margin-left: 4rem;
+    margin-right: 4rem; */
     /* border: 1px solid black; */
     flex-direction: column;
     padding-top: 40px;
@@ -74,6 +75,7 @@
   border: none;
   border-radius: 20px;
   align-self: auto;
+  
 }
 
 .head-container p, h2{

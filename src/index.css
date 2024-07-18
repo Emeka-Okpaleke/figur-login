@@ -52,10 +52,10 @@ h2{
   }
 
   .login-box{
-    margin: 0 auto;
+    display: flex;
   }
   .login-container{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
   }
 }
