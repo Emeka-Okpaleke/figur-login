@@ -101,7 +101,7 @@ form input{
 }
 
 form .email, .password{
-    padding-right: 16px;
+    /* padding-right: 16px; */
     /* padding-left: 16px; */
 }
 
