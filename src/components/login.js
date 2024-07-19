@@ -10,17 +10,20 @@ const Login = () => {
                     <h2>Welcome Back</h2>
                 </div>
                 <form>
-                    <div className="email">
+                    <div className="email text-input">
                         <label htmlFor="email"></label>
                         <input type="email" id="email" placeholder="Email" required />
                     </div>
-                    <div className="password">
+                    <div className="password text-input">
                         <label htmlFor="password"></label>
                         <input type="password" id="password" placeholder="Password" required />
                             <FontAwesomeIcon icon={faEyeSlash} className='fontAwesome'/>
                     </div>
                     <div className="link"><a href="/">Forgot Password</a></div>
-                    <button className = "loginSubmit" type="submit">Login</button>
+                    <div className="submit-div" style={{display:"flex", justifyContent: "center"}}>
+                        <button className = "loginSubmit" type="submit">Login</button>
+                    </div>
+                    
                     <div className="link">
                         <a href="/">I don't have an account</a>
                     </div>
